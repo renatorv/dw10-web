@@ -19,8 +19,8 @@ class AuthRepositoryImpl extends AuthRepository {
       final result = await _dio.umauth().post(
         '/auth',
         data: {
-          'email': 'rodrigorahman@academiadoflutter.com.br',
-          'password': '123123',
+          'email':  email, //'rodrigorahman@academiadoflutter.com.br',
+          'password': password, // '123123',
           'admin': true,
         },
       );

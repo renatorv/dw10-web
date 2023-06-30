@@ -15,4 +15,6 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-# Parei dia 1 -27:30"# dw10-web" 
+## VERSÃO FLUTTER => 3.7.12
+
+# Parei dia 2 - Parte 1 -34
