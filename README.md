@@ -17,4 +17,4 @@ samples, guidance on mobile development, and a full API reference.
 
 ## VERSÃO FLUTTER => 3.7.12
 
-# Parei dia 2 - Parte 1 -34
+# Parei dia 2 - Parte 1 -26
