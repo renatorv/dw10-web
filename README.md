@@ -17,4 +17,8 @@ samples, guidance on mobile development, and a full API reference.
 
 ## VERSÃO FLUTTER => 3.7.12
 
-# Parei dia 2 - Parte 1 -26
+# dart run build_runner watch -d
+
+# json_rest_server run => DENTRO DA PASTA
+
+# Parei dia 2 - Parte 2 -31:31
