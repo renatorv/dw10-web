@@ -21,4 +21,4 @@ samples, guidance on mobile development, and a full API reference.
 
 # json_rest_server run => DENTRO DA PASTA
 
-# Parei dia 2 - Parte 2 -31:31
+# Parei dia 3 - Parte 1 => -13
