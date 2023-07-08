@@ -1,14 +1,18 @@
 import 'package:flutter/material.dart';
 
 import '../../../core/ui/widgets/base_header.dart';
+import '../payment_type_controller.dart';
 
 class PaymentTypeHeader extends StatelessWidget {
-  const PaymentTypeHeader({super.key});
+  final PaymentTypeController controller;
+  const PaymentTypeHeader({super.key, required this.controller});
 
   @override
   Widget build(BuildContext context) {
     return BaseHeader(
-      buttonPressed: () {},
+      buttonPressed: () {
+        controller.addPayment();
+      },
       buttomLabel: 'ADICIONAR',
       title: 'ADMINISTRAR FORMAS DE PAGAMENTO',
       filterWidget: DropdownButton<bool>(
