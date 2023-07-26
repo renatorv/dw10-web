@@ -26,7 +26,7 @@ class AuthRepositoryImpl extends AuthRepository {
       );
 
       return AuthModel.fromMap(result.data);
-    } on DioError catch (e, s) {
+    } on DioException catch (e, s) {
       // Posso trocar pelo DioException ?????
       if (e.response?.statusCode == 403) {
         log('Login ou senha inválidos!', error: e, stackTrace: s);

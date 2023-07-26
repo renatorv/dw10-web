@@ -69,7 +69,7 @@ class _LoginPageState extends State<LoginPage> with Loader, Messages {
   @override
   Widget build(BuildContext context) {
     final screenShortestSide = context.screenShortestSide;
-    final screenWidth = context.screenWidth;
+    // final screenWidth = context.screenWidth;
     return Scaffold(
       //  appBar: AppBar(title: const Text('Login'),),
       backgroundColor: context.colors.black,

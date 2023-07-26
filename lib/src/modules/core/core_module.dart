@@ -5,6 +5,8 @@ import '../../core/storage/session_storage.dart';
 import '../../core/storage/storage.dart';
 import '../../repositories/payment_type/payment_type_repository.dart';
 import '../../repositories/payment_type/payment_type_repository_impl.dart';
+import '../../repositories/products/product_repository.dart';
+import '../../repositories/products/product_repository_impl.dart';
 
 class CoreModule extends Module {
   @override
@@ -14,5 +16,6 @@ class CoreModule extends Module {
         // Como a busca por meios de pagamentos em vários lugares da aplicação 
         // ele foi injetado no core ficando disponível para qq para do app.
         Bind.lazySingleton<PaymentTypeRepository>((i) => PaymentTypeRepositoryImpl(i()), export: true),
+        Bind.lazySingleton<ProductRepository>((i) => ProductRepositoryImpl(i()), export: true),
       ];
 }
