@@ -63,7 +63,7 @@ class ProductRepositoryImpl extends ProductRepository {
       final data = productModel.toMap();
       if (productModel.id != null) {
         // Atualizar
-        await client.put('/products/$productModel.id', data: data);
+        await client.put('/products/${productModel.id}', data: data);
       } else {
         // cadastra novo
         await client.post('/products', data: data);

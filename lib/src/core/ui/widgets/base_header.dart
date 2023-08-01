@@ -14,7 +14,7 @@ class BaseHeader extends StatelessWidget {
     super.key,
     required this.title,
     this.searchChange,
-    required this.buttomLabel,
+    this.buttomLabel = '',
     this.buttonPressed,
     this.addButton = true,
     this.filterWidget,
